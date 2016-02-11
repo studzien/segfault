@@ -1,0 +1,14 @@
+{application, segfault,
+ [
+  {description, "An Erlang segfault library"},
+  {vsn, "1"},
+  {modules, [
+             segfault
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
